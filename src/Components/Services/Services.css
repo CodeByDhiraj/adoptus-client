@@ -1,0 +1,63 @@
+.main-container {
+    display: flex;
+    flex-direction: row; /* side-by-side layout */
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 2rem;
+    flex-wrap: wrap; /* for responsiveness */
+  }
+  
+  .adopt-pet,
+  .post-pet {
+    background: var(--bg);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    flex: 1 1 48%; /* takes up ~half the width with spacing */
+    min-width: 300px; /* fallback for small screens */
+  }
+  
+  /* Optional: Stack vertically on smaller screens */
+  @media screen and (max-width: 768px) {
+    .main-container {
+      flex-direction: column;
+    }
+  
+    .adopt-pet,
+    .post-pet {
+      max-width: 100%;
+    }
+  }
+  .file-input-label {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    background-color: var(--primary);
+    color: var(--text-color);
+    font-weight: 500;
+    padding: 0.6rem 1.5rem;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .file-input-label:hover {
+    background-color: #006be6; /* slightly darker primary on hover */
+  }
+  
+  .file-input-label .file-input-text {
+    pointer-events: none;
+  }
+  
+  .file-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+  }
+  

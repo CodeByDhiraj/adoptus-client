@@ -1,0 +1,61 @@
+.journey-section {
+    padding: 50px 20px;
+    background-color: var(--darkgrey);
+    text-align: center;
+  }
+  
+  .journey-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+  }
+  
+  .journey-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .journey-image {
+    max-width: 300px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .journey-steps {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    text-align: left;
+  }
+  
+  .journey-step {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  
+  .journey-icon {
+    font-size: 2rem;
+    color: var(--primary-color);
+    flex-shrink: 0;
+    margin-top: 5px;
+  }
+  
+  .step-title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--text-color);
+    margin-bottom: 0.2rem;
+  }
+  
+  .step-desc {
+    color: var(--secondary-color);
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+  

@@ -1,0 +1,15 @@
+/* ✅ Path: Client/src/Components/AdminPanel/AdminFooter.css */
+.admin-footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #0f172a;
+    color: #f1f5f9;
+    font-size: 0.9rem;
+    border-top: 1px solid #334155;
+  }
+  
+  .admin-footer .highlight {
+    color: #38bdf8;
+    font-weight: bold;
+  }
+  

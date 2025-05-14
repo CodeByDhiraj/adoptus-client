@@ -1,0 +1,25 @@
+.pet-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 20px;
+  }
+  
+  .loader,
+  .no-pets-found {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 2rem;
+  }
+  
+  .loader {
+    color: #3498db; /* blue loading color */
+  }
+  
+  .no-pets-found img {
+    width: 180px;
+    margin-bottom: 15px;
+  }
+  

@@ -1,0 +1,97 @@
+/* ✅ File: src/Pages/ShopListing/shoplisting.css */
+
+.shop-listing-container {
+    padding: 20px 40px;
+    background-color: var(--bg-color);
+    min-height: 100vh;
+    color: var(--text-color);
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .shop-card {
+    background-color: var(--white);
+    border: 1px solid var(--orange);
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+  }
+  
+  .shop-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .shop-details {
+    padding: 15px 20px;
+  }
+  
+  .shop-details h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--orange);
+  }
+  
+  .shop-details p {
+    font-size: 15px;
+    margin-top: 5px;
+    color: var(--darkGrey);
+  }
+  
+  .shop-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .shop-actions a,
+  .bookmark-btn {
+    font-size: 14px;
+    padding: 8px 14px;
+    background-color: var(--orange);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .bookmark-btn:hover {
+    background-color: var(--hoverorange);
+  }
+  
+  @media (max-width: 768px) {
+    .shop-listing-container {
+      padding: 10px;
+    }
+  }
+  
+  /* Google Map Section */
+  .shop-map {
+    margin-bottom: 40px;
+    border: 2px solid var(--orange);
+    border-radius: 10px;
+    overflow: hidden;
+  }  
+  
+  .shop-images {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .shop-img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  

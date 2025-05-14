@@ -1,0 +1,164 @@
+.contact-container {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 2.5rem;
+  background: var(--bg, #ffffff);
+  border-radius: 16px;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15);
+  animation: fadeIn 0.6s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.contact-heading {
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--text, #1a1a1a);
+  animation: slideUp 0.5s ease forwards;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.contact-label {
+  font-weight: 600;
+  font-size: 15px;
+  color: #1a1a1a;
+  margin-top: 10px;
+  margin-bottom: -5px;
+  padding-left: 5px;
+}
+
+.contact-input,
+.contact-textarea {
+  padding: 1rem;
+  border: 1.5px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: var(--text, #1a1a1a);
+  background-color: var(--bg, #fff);
+  outline: none;
+  transition: border 0.3s ease, transform 0.2s ease;
+}
+
+.contact-input:focus,
+.contact-textarea:focus {
+  border-color: var(--primary, #007fff);
+  transform: scale(1.01);
+}
+
+.contact-textarea {
+  min-height: 130px;
+  resize: vertical;
+}
+
+
+.contact-input::placeholder,
+.contact-textarea::placeholder {
+  color: #777;
+  opacity: 0.7;
+}
+
+.contact-button {
+  background-color: var(--primary, #007fff);
+  color: white;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.4s ease, transform 0.2s ease;
+}
+
+.contact-button:hover {
+  background-color: #005ecb;
+  transform: scale(1.02);
+}
+
+.contact-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.success-message,
+.error-message {
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: 600;
+  animation: fadeIn 0.4s ease;
+}
+
+.success-message {
+  color: #2ecc71;
+}
+
+.error-message,
+.email-error {
+  color: #e74c3c;
+}
+
+.email-error {
+  font-size: 14px;
+  margin: -10px 0 10px;
+  text-align: left;
+}
+
+/* Pulse effect for success */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.04);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.success-message {
+  animation: pulse 0.6s ease-in-out 2;
+}
+.spinner {
+  width: 20px;
+  height: 20px;
+  border: 3px solid #fff;
+  border-top: 3px solid transparent;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

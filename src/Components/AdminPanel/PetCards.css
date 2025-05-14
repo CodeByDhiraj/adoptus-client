@@ -1,0 +1,149 @@
+.req-containter {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.pet-view-card {
+  background-color: var(--darkGrey);
+  color: var(--text-color);
+  border-radius: 16px;
+  padding: 0rem;
+  overflow: hidden;
+  width: 320px;
+  border: 1px solid var(--orange);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pet-view-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 24px var(--hoverorange);
+}
+
+.pet-card-pic img {
+  width: 128%;
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 2px solid var(--orange);
+}
+
+.pet-card-details {
+  padding: 1rem;
+  color: var(--text-color);
+  font-family: 'Varela Round', sans-serif;
+}
+
+.pet-card-details h2 {
+  color: var(--orange);
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.pet-card-details p {
+  margin: 0.3rem 0;
+  font-size: 0.95rem;
+}
+
+.app-rej-btn {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.app-rej-btn button {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--white);
+  background-color: var(--orange);
+  transition: background-color 0.3s ease;
+  min-width: 100px;
+}
+
+.app-rej-btn button:hover {
+  background-color: var(--hoverorange);
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background-color: var(--darkGrey);
+  padding: 2rem;
+  border-radius: 12px;
+  color: var(--text-color);
+  max-width: 90%;
+  max-height: 80%;
+  overflow-y: auto;
+}
+
+.close-btn {
+  background-color: #ef4444;
+  color: var(--white);
+  border: none;
+  padding: 8px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.read-more-btn {
+  font-weight: bold;
+  cursor: pointer;
+  color: var(--hoverorange);
+  margin-left: 5px;
+}
+
+.read-more-btn:hover {
+  text-decoration: underline;
+}
+
+.req-filter-selection {
+  padding: 8px 12px;
+  border-radius: 50px;
+  font-weight: bold;
+  border: none;
+  background-color: var(--orange);
+  color: var(--white);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.req-filter-selection:hover {
+  background-color: var(--hoverorange);
+}
+
+@media (max-width: 768px) {
+  .req-containter {
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .pet-view-card {
+    width: 100%;
+  }
+}
+
+/* ✅ Keep View Full button at bottom */
+.view-btn-center {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}

@@ -1,6 +1,6 @@
 <!-- Cover Banner -->
 <p align="center">
-  <img src="images/banner.png" alt="AdoptUs Banner" width="100%" />
+  <img src="previews/banner.png" alt="AdoptUs Banner" width="100%" />
 </p>
 
 <h1 align="center">🐾 AdoptUs - Pet Adoption & Pet Service Platform</h1>
@@ -24,14 +24,9 @@
 ---
 
 ## 📽️ Demo Preview
-
-> You can replace below with your actual recording later
-
 | Home Page | Pet Listing | Admin Panel |
 |-----------|-------------|-------------|
-| ![](images/home.gif) | ![](images/pets.gif) | ![](images/admin.gif) |
-
-🎬 Record your screen with [Screenity](https://chrome.google.com/webstore/detail/screenity-screen-recorder/)
+| ![](previews/home.gif) | ![](previews/pets.gif) | ![](previews/admin.gif) |
 
 ---
 
@@ -73,7 +68,7 @@ AdoptUs is a feature-rich pet adoption web application where:
 - 📈 Animated Stats (Pets, Users, Adoptions)
 - 🎨 Dark/Light Mode Switch
 - 🛰️ Scroll-to-top Rocket
-- 📱 Fully Responsive
+- 📱 Only For Desktop and Laptops Screens 
 
 ### 🛠️ Admin Side
 
@@ -91,8 +86,8 @@ AdoptUs is a feature-rich pet adoption web application where:
 
 | Homepage | Adoption | Services |
 |----------|----------|----------|
-| ![](images/1.png) | ![](images/2.png) | ![](images/3.png) |
-| ![](images/4.png) | ![](images/5.png) | ![](images/6.png) |
+| ![](previews/1.png) | ![](previews/2.png) | ![](previews/3.png) |
+| ![](previews/4.png) | ![](previews/5.png) | ![](previews/6.png) |
 
 ---
 
@@ -115,7 +110,7 @@ AdoptUs is a feature-rich pet adoption web application where:
 ### Clone Repository
 
 ```bash
-git clone https://github.com/fallmodz/adoptus.git
+git clone https://github.com/codebydhiraj/adoptus.git
 cd adoptus
 
 Frontend Setup

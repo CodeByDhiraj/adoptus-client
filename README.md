@@ -25,9 +25,22 @@
 ---
 
 ## 📽️ Demo Preview
-| Home Page | Pet Listing | Admin Panel |
-|-----------|-------------|-------------|
-| ![](https://adoptus.fallmodz.in/previews/home.gif) | ![](https://adoptus.fallmodz.in/previews/pets.gif) | ![](https://adoptus.fallmodz.in/previews/admin.gif) |
+
+> Watch real-time walkthrough of Home, Pets & Admin Panel below 👇
+
+### 🏠 Home Page
+<video src="https://res.cloudinary.com/dtnnjs7nj/video/upload/v1754225270/home_yq6niq.mp4" autoplay loop muted playsinline width="100%"></video>
+
+---
+
+### 🐾 Pet Listing
+<video src="https://res.cloudinary.com/dtnnjs7nj/video/upload/v1754225270/pets_plwhjp.mp4" autoplay loop muted playsinline width="100%"></video>
+
+---
+
+### 🛠️ Admin Panel
+<video src="https://res.cloudinary.com/dtnnjs7nj/video/upload/v1754225279/admin_ytqum8.mp4" autoplay loop muted playsinline width="100%"></video>
+
 
 ---
 
@@ -87,8 +100,8 @@ AdoptUs is a feature-rich pet adoption web application where:
 
 | Homepage | Adoption | Services |
 |----------|----------|----------|
-| ![](previews/home1.png) | ![](previews/pets1.png) | ![](previews/service.png) |
-| ![](previews/home3.png) | ![](previews/petsapply.png) | ![](previews/contact.png) |
+| ![](https://adoptus.fallmodz.in/previews/home1.png) | ![](https://adoptus.fallmodz.in/previews/pets1.png) | ![](https://adoptus.fallmodz.in/previews/service.png) |
+| ![](https://adoptus.fallmodz.in/previews/home3.png) | ![](https://adoptus.fallmodz.in/previews/petsapply.png) | ![](https://adoptus.fallmodz.in/previews/contact.png) |
 
 ---
 

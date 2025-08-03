@@ -1,7 +1,8 @@
 <!-- Cover Banner -->
 <p align="center">
-  <img src="previews/banner.png" alt="AdoptUs Banner" width="100%" />
+  <img src="https://adoptus.fallmodz.in/previews/banner.png" alt="AdoptUs Banner" width="70%" />
 </p>
+
 
 <h1 align="center">🐾 AdoptUs - Pet Adoption & Pet Service Platform</h1>
 
@@ -26,7 +27,7 @@
 ## 📽️ Demo Preview
 | Home Page | Pet Listing | Admin Panel |
 |-----------|-------------|-------------|
-| ![](previews/home.gif) | ![](previews/pets.gif) | ![](previews/admin.gif) |
+| ![](https://adoptus.fallmodz.in/previews/home.gif) | ![](https://adoptus.fallmodz.in/previews/pets.gif) | ![](https://adoptus.fallmodz.in/previews/admin.gif) |
 
 ---
 
@@ -86,8 +87,8 @@ AdoptUs is a feature-rich pet adoption web application where:
 
 | Homepage | Adoption | Services |
 |----------|----------|----------|
-| ![](previews/1.png) | ![](previews/2.png) | ![](previews/3.png) |
-| ![](previews/4.png) | ![](previews/5.png) | ![](previews/6.png) |
+| ![](previews/home1.png) | ![](previews/pets1.png) | ![](previews/service.png) |
+| ![](previews/home3.png) | ![](previews/petsapply.png) | ![](previews/contact.png) |
 
 ---
 

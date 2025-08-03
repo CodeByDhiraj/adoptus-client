@@ -23,27 +23,6 @@
 </p>
 
 ---
-
-## 📽️ Demo Preview
-
-> Watch real-time walkthrough of Home, Pets & Admin Panel below 👇
-
-### 🏠 Home Page
-<video src="https://res.cloudinary.com/dtnnjs7nj/video/upload/v1754225270/home_yq6niq.mp4" autoplay loop muted playsinline width="100%"></video>
-
----
-
-### 🐾 Pet Listing
-<video src="https://res.cloudinary.com/dtnnjs7nj/video/upload/v1754225270/pets_plwhjp.mp4" autoplay loop muted playsinline width="100%"></video>
-
----
-
-### 🛠️ Admin Panel
-<video src="https://res.cloudinary.com/dtnnjs7nj/video/upload/v1754225279/admin_ytqum8.mp4" autoplay loop muted playsinline width="100%"></video>
-
-
----
-
 ## 📋 Table of Contents
 
 - [🐶 About the Project](#-about-the-project)
